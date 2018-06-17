@@ -7,7 +7,7 @@ todo: describe the problem and user needs (see proposal instructions)
 
 ## Information Requirements
 
-The application needs to know the user's location in order to narrow down search results and have enough samples to use its randomization on.
+The application needs to know the user's location in order to narrow down search results and have enough samples to use its randomization on. A radius of 1 mile will be used to assume that the user will not want to spend too much time traveling.
 
 ### Information Inputs
 
@@ -25,7 +25,9 @@ The application will use the Yelp API to carry out its searches, documentation i
 
 ### Python Package Requirements
 
-The application will need the JSON application to parse the API output
+The application will need the JSON application to parse the API output.
+It will also need the random module to select options from the API data.
+The pytest module may also be used for testing purposes.
 
 ### Hardware Requirements
 
