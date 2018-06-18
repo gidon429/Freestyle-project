@@ -22,6 +22,7 @@ The output will be a string of a restaurant's name and address.
 ### APIs and Web Service Requirements
 
 The application will use the Yelp API to carry out its searches, documentation is located at: https://www.yelp.com/developers/documentation/v3/business_search
+Using the Yelp API requires creating an app account on https://www.yelp.com/developers/documentation/v3/authentication where it provides an API Key and Client ID once the app is authenticated.
 
 ### Python Package Requirements
 
