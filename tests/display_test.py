@@ -4,7 +4,7 @@ import random
 import pytest
 
 
-#request_url = "C:\Users\Gidon\Desktop\freestyle_project\testing_data\testing_data.json"
+request_url = "testing_data\testing_data.json"
 
 file_name = "testing_data.json"
 
