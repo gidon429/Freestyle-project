@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_KEY = os.environ.get("YELP_API_KEY") or "OOPS. Please set an environment variable named 'YELP_API_KEY'."
+YELP_API_KEY = os.environ.get("YELP_API_KEY") or "OOPS. Please set an environment variable named 'YELP_API_KEY'."
 
 def is_valid_zip(zip_code):
     try:
