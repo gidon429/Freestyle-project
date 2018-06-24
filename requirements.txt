@@ -1,0 +1,4 @@
+pip install json
+pip install requests
+pip install dotenv
+pip install pytest
