@@ -5,12 +5,9 @@ import pytest
 import os
 from dotenv import load_dotenv
 
-
-YELP_API_KEY = "ACE_TLwdsFbf8fK7l0ljy7cRa-gfVjinKhOaFWnLK8M0uFM5cV-cmIdLy1D7jXIRoLKbHj95FirYwX3x-JqARpYALmveGZw2boD5pX6hTu3lJbylCIM_86oeV_wmW3Yx"
-
 load_dotenv()
 
-API_KEY = os.environ.get("YELP_API_KEY") or "OOPS. Please set an environment variable named 'YELP_API_KEY'.
+YELP_API_KEY = os.environ.get("YELP_API_KEY") or "OOPS. Please set an environment variable named 'YELP_API_KEY'.
 
 def is_valid_zip(zip_code):
     try:
